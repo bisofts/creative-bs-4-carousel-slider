@@ -1,0 +1,145 @@
+.thumbs-slider-2 .carousel-inner {
+  height: 100vh;
+  cursor: move;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item {
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item h2 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item p {
+  font-size: 1rem;
+  margin: 10px 0 25px;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item .carousel-caption {
+  bottom: 0;
+  left: 10%;
+  top: 0;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item .carousel-caption h2, .thumbs-slider-2 .carousel-inner .carousel-item .carousel-caption p, .thumbs-slider-2 .carousel-inner .carousel-item .carousel-caption .btn {
+  visibility: hidden;
+  opacity: 0;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item .carousel-caption .btn:after {
+  border-radius: 40px;
+  left: 100%;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item .carousel-caption .btn:hover:after {
+  left: 0;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  opacity: 1;
+  visibility: visible;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption h2, .thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption p, .thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption .btn {
+  visibility: visible;
+  opacity: 1;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.first-slide h2 {
+  animation: 1500ms ease-in-out 0s normal none 1 running zoomIn;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.first-slide p {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.first-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.second-slide h2 {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInRight;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.second-slide p {
+  animation: 1500ms ease-in-out 0s normal none 1 running zoomIn;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.second-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInUp;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.third-slide h2 {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.third-slide p {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.thumbs-slider-2 .carousel-inner .carousel-item.active .carousel-caption.third-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running zoomIn;
+}
+.thumbs-slider-2 .carousel-indicators {
+  bottom: 0;
+  display: block;
+  left: auto;
+  margin: 0;
+  top: 0.9rem;
+  right: 1rem;
+}
+.thumbs-slider-2 .carousel-indicators li {
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 100px;
+  margin-top: 10px;
+  max-width: 100px;
+  text-indent: unset;
+  width: 100px;
+}
+.thumbs-slider-2 .carousel-indicators li .text {
+  background-color: #ffffff;
+  bottom: 0;
+  left: -40px;
+  max-width: 100px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+  visibility: hidden;
+  width: 100px;
+  padding: 3px;
+  font-size: 13px;
+}
+.thumbs-slider-2 .carousel-indicators li .text a {
+  font-size: 0.8rem;
+  color: #333333;
+  font-weight: bold;
+}
+.thumbs-slider-2 .carousel-indicators li img {
+  height: 100px;
+  max-width: 100px;
+  opacity: 0.5;
+  width: 100px;
+}
+.thumbs-slider-2 .carousel-indicators li.active .text {
+  opacity: 1;
+  left: -100px;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+  visibility: visible;
+}
+.thumbs-slider-2 .carousel-indicators li.active img {
+  opacity: 1;
+}

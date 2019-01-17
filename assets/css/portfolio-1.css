@@ -1,0 +1,76 @@
+body {
+  background-color: #eeeeee;
+}
+
+.portfolio-1 {
+  padding: 100px 0;
+}
+.portfolio-1 .carousel-inner {
+  cursor: move;
+}
+.portfolio-1 .carousel-inner .carousel-item {
+  background-position: center center;
+  background-size: cover;
+}
+.portfolio-1 .item-hover {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+.portfolio-1 .item-hover figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-1 .item-hover .btn {
+  padding: 0.5rem 2rem;
+  border: 1px solid #08c962;
+}
+.portfolio-1 .item-hover .hover-data {
+  background-color: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  padding: 10px;
+  transform: translateX(-100%);
+  visibility: hidden;
+  transition: 0.3s linear all;
+  width: 100%;
+}
+.portfolio-1 .item-hover .hover-data a {
+  color: #fff;
+  font-size: 27px;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+}
+.portfolio-1 .item-hover:hover .hover-data {
+  right: 0;
+  transition: 0.3s linear all;
+  transform: translateX(0);
+  visibility: visible;
+}
+.portfolio-1 .carousel-indicators {
+  margin: 30px 0 0;
+  position: static;
+  text-align: center;
+}
+.portfolio-1 .carousel-indicators li {
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-indent: 0;
+  width: 2.9rem;
+  height: 2.9rem;
+}
+.portfolio-1 .carousel-indicators li.active {
+  background-color: #08c962;
+  border: none;
+  color: #ffffff;
+}

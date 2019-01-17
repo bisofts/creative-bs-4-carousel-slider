@@ -1,0 +1,63 @@
+.testinomials-1 {
+  cursor: move;
+  background-image: url("../../assets/images/food.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+}
+.testinomials-1::after {
+  background-color: rgba(0, 0, 0, 0.77);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.testinomials-1 .carousel-inner .carousel-item {
+  background-position: center center;
+  background-size: cover;
+}
+.testinomials-1 h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.testinomials-1 p {
+  color: #ffffff;
+  margin-top: 20px;
+}
+.testinomials-1 p i {
+  margin-right: 10px;
+  color: #b19b27;
+}
+.testinomials-1 a {
+  color: #b19b27;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.testinomials-1 figure {
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.testinomials-1 .carousel-indicators {
+  bottom: -40px;
+  margin: 0;
+}
+.testinomials-1 .carousel-indicators li {
+  border: 2px solid #b19b27;
+  cursor: pointer;
+  height: 0.5rem;
+  opacity: 0.7;
+}
+.testinomials-1 .carousel-indicators li.active {
+  background-color: #b19b27;
+  border: 2px solid #b19b27;
+  opacity: 1;
+}

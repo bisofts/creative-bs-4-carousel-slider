@@ -1,0 +1,96 @@
+.thumbs-slider-4 .carousel-control-next-icon {
+  background-image: url("../../assets/images/right-arrow.png");
+  height: 40px;
+}
+.thumbs-slider-4 .carousel-control-prev-icon {
+  background-image: url("../../assets/images/left-arrow.png");
+  height: 40px;
+}
+.thumbs-slider-4 .carousel-inner {
+  height: 100vh;
+  cursor: move;
+}
+.thumbs-slider-4 .carousel-inner .carousel-item {
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -ms-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.thumbs-slider-4 .carousel-inner .carousel-item.carousel-item-left {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.thumbs-slider-4 .carousel-inner .carousel-item.carousel-item-next, .thumbs-slider-4 .carousel-inner .carousel-item.carousel-item-prev, .thumbs-slider-4 .carousel-inner .carousel-item.carousel-item-right {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.thumbs-slider-4 .carousel-inner .carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.thumbs-slider-4 .carousel-inner .carousel-item .carousel-caption {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.thumbs-slider-4 .carousel-inner .carousel-item.active {
+  opacity: 1;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -ms-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.thumbs-slider-4 .carousel-indicators {
+  bottom: 15px;
+  margin: 0;
+}
+.thumbs-slider-4 .carousel-indicators li {
+  cursor: pointer;
+  height: auto;
+  text-indent: unset;
+  -webkit-transition: all 0.1s linear 0s;
+  -moz-transition: all 0.1s linear 0s;
+  -ms-transition: all 0.1s linear 0s;
+  -o-transition: all 0.1s linear 0s;
+  transition: all 0.1s linear 0s;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 200px;
+}
+.thumbs-slider-4 .carousel-indicators li h5 {
+  font-size: 0.99rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.thumbs-slider-4 .carousel-indicators li span {
+  font-size: 0.88rem;
+}
+.thumbs-slider-4 .carousel-indicators li.active {
+  -webkit-transition: all 0.1s linear 0s;
+  -moz-transition: all 0.1s linear 0s;
+  -ms-transition: all 0.1s linear 0s;
+  -o-transition: all 0.1s linear 0s;
+  transition: all 0.1s linear 0s;
+}

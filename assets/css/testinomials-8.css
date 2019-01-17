@@ -1,0 +1,102 @@
+.testinomials-8 {
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+.testinomials-8 .carousel {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  cursor: move;
+  margin: 0 auto;
+  max-width: 767px;
+  padding: 20px;
+}
+.testinomials-8 .carousel .carousel-control-next, .testinomials-8 .carousel .carousel-control-prev {
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #08c962;
+  height: 40px;
+  padding: 12px;
+  top: 50%;
+  opacity: 0;
+  visibility: hidden;
+  width: 40px;
+}
+.testinomials-8 .carousel:hover .carousel-control-next, .testinomials-8 .carousel:hover .carousel-control-prev {
+  opacity: 1;
+  visibility: visible;
+}
+.testinomials-8 .star-rating {
+  color: #d8d833;
+}
+.testinomials-8 h3 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 18px;
+}
+.testinomials-8 p {
+  margin-top: 30px;
+  color: #777777;
+  font-size: 14px;
+}
+.testinomials-8 a {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #ad9696;
+}
+.testinomials-8 .arrow {
+  color: #f8e6e6;
+  font-size: 60px;
+  opacity: 0.66;
+  position: absolute;
+  top: 40px;
+}
+.testinomials-8 .arrow.left-arrow {
+  left: 40px;
+}
+.testinomials-8 .arrow.right-arrow {
+  right: 40px;
+  left: auto;
+}
+.testinomials-8 .image-wrapper {
+  background-color: #f1f1f1;
+}
+.testinomials-8 .author-content {
+  width: calc(100% - 80px);
+}
+.testinomials-8 .testimonial-column:nth-child(2) .item-hover {
+  background-color: #08c962;
+  border-color: #08c962;
+}
+.testinomials-8 .testimonial-column:nth-child(2) p, .testinomials-8 .testimonial-column:nth-child(2) h3, .testinomials-8 .testimonial-column:nth-child(2) a {
+  color: #ffffff;
+}
+.testinomials-8 .carousel-indicators {
+  bottom: 47px;
+  margin: 30px 0 0;
+  text-align: center;
+  position: static;
+}
+.testinomials-8 .carousel-indicators li {
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  border-radius: 50%;
+  border: 1px solid #b19b27;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+}
+.testinomials-8 .carousel-indicators li.active {
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  background-color: #b19b27;
+}

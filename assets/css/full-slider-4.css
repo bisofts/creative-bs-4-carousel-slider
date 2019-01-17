@@ -1,0 +1,111 @@
+@charset "UTF-8";
+.full-slider-4 .form-control {
+  font-size: 1.4rem;
+  margin-right: -0.2rem;
+}
+.full-slider-4 .input-group-btn .btn {
+  background-color: #08c962;
+  color: #ffffff;
+}
+.full-slider-4 .carousel-control-next-icon, .full-slider-4 .carousel-control-prev-icon {
+  background-image: none;
+  height: auto;
+  width: auto;
+}
+.full-slider-4 .carousel-control-next, .full-slider-4 .carousel-control-prev {
+  left: auto;
+  right: 90px;
+  top: 40px;
+  background-color: #08c962;
+  border-radius: 10px;
+  font-size: 30px;
+  height: 40px;
+  line-height: 68px;
+  position: absolute;
+  -webkit-transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -ms-transition: 0.3s ease all;
+  -o-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  width: 40px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: 99;
+}
+.full-slider-4 .carousel-control-next:after, .full-slider-4 .carousel-control-prev:after {
+  content: "";
+  font-family: fontawesome;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.full-slider-4 .carousel-control-next {
+  left: auto;
+  right: 20px;
+}
+.full-slider-4 .carousel-control-next:after {
+  content: "";
+}
+.full-slider-4 .subscribe-content {
+  align-items: center;
+  bottom: 0;
+  color: #ffffff;
+  cursor: move;
+  left: 10px;
+  margin: 0 auto;
+  max-width: 650px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.full-slider-4 .subscribe-content h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.full-slider-4 .subscribe-content p {
+  font-size: 1rem;
+  margin: 10px 0 25px;
+}
+.full-slider-4 .carousel-inner {
+  cursor: move;
+}
+.full-slider-4 .carousel-inner .carousel-item {
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.full-slider-4 .carousel-inner .carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.67);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.full-slider-4 .carousel-indicators {
+  bottom: 40px;
+  left: 20px;
+  margin: 0;
+  right: auto;
+}
+.full-slider-4 .carousel-indicators li {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+}
+.full-slider-4 .carousel-indicators li.active {
+  background-color: #08c962;
+}

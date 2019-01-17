@@ -1,0 +1,67 @@
+.testinomials-5 {
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+.testinomials-5 .carousel {
+  background-color: #08c962;
+  border-radius: 40px 0 40px 0;
+  padding: 30px;
+}
+.testinomials-5 h3 {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.testinomials-5 p {
+  position: relative;
+  max-width: 767px;
+  margin: 0 auto;
+}
+.testinomials-5 p::before {
+  color: #08c962;
+  content: "\f10d";
+  font-family: fontawesome;
+  font-size: 22px;
+  left: -24px;
+  position: absolute;
+  top: -5px;
+}
+.testinomials-5 p::after {
+  bottom: -10px;
+  color: #08c962;
+  content: "\f10e";
+  font-family: fontawesome;
+  font-size: 22px;
+  margin-left: 11px;
+  position: absolute;
+}
+.testinomials-5 a {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #ad9696;
+}
+.testinomials-5 figure {
+  margin: 0;
+}
+.testinomials-5 .item-hover {
+  padding: 2.5rem;
+  background-color: #ffffff;
+}
+.testinomials-5 .carousel-indicators {
+  margin: 30px 0 0;
+  text-align: center;
+  top: 5px;
+  right: 40px;
+  left: auto;
+}
+.testinomials-5 .carousel-indicators li {
+  border: 1px solid #b19b27;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+.testinomials-5 .carousel-indicators li.active {
+  background-color: #b19b27;
+  border-color: #b19b27;
+}

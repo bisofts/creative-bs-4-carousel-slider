@@ -1,0 +1,55 @@
+.portfolio-2 {
+  padding: 40px 0;
+  cursor: move;
+}
+.portfolio-2 .item-hover {
+  margin-bottom: 1rem;
+}
+.portfolio-2 .item-hover .btn {
+  padding: 0.5rem 2rem;
+  border: 1px solid #08c962;
+}
+.portfolio-2 .item-hover figure {
+  overflow: hidden;
+  position: relative;
+}
+.portfolio-2 .item-hover .hover-data {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  padding: 20px;
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: 0.3s linear all;
+  width: 100%;
+}
+.portfolio-2 .item-hover:hover .hover-data {
+  left: 0;
+  transition: 0.3s linear all;
+  transform: translateX(0);
+  visibility: visible;
+}
+.portfolio-2 .carousel-indicators {
+  margin: 30px 0 0 30px 0;
+  position: static;
+  text-align: center;
+}
+.portfolio-2 .carousel-indicators li {
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-indent: 0;
+  width: 2.9rem;
+  height: 2.9rem;
+}
+.portfolio-2 .carousel-indicators li.active {
+  background-color: #08c962;
+  border-color: #08c962;
+  color: #ffffff;
+}

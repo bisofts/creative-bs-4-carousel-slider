@@ -1,0 +1,140 @@
+.thumbs-slider-3 .carousel-inner {
+  height: 100vh;
+  cursor: move;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item {
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.carousel-item-left {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.carousel-item-next, .thumbs-slider-3 .carousel-inner .carousel-item.carousel-item-prev, .thumbs-slider-3 .carousel-inner .carousel-item.carousel-item-right {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item h2 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item p {
+  font-size: 1rem;
+  margin: 10px 0 25px;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption {
+  bottom: 0;
+  left: 10%;
+  right: auto;
+  top: 0;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption h2, .thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption p, .thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption .btn {
+  visibility: hidden;
+  opacity: 0;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption .btn {
+  margin-bottom: 0.8rem;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption .btn.about {
+  margin-right: 0.8rem;
+  background-color: #ef2020;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption .btn:after {
+  border-radius: 40px;
+  left: 100%;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item .carousel-caption .btn:hover:after {
+  left: 0;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  opacity: 1;
+  visibility: visible;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.active {
+  opacity: 1;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption h2, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption p, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption .btn {
+  visibility: visible;
+  opacity: 1;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.first-slide h2, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.first-slide p, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.first-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running zoomIn;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.second-slide h2, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.second-slide p, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.second-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running zoomInDown;
+}
+.thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.third-slide h2, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.third-slide p, .thumbs-slider-3 .carousel-inner .carousel-item.active .carousel-caption.third-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running zoomInLeft;
+}
+.thumbs-slider-3 .carousel-indicators {
+  bottom: auto;
+  left: auto;
+  right: 0;
+  display: block;
+  top: 10px;
+  margin: 0;
+}
+.thumbs-slider-3 .carousel-indicators li {
+  cursor: pointer;
+  max-width: 80px;
+  text-indent: unset;
+  width: 80px;
+  display: inline-block;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.thumbs-slider-3 .carousel-indicators li img {
+  opacity: 0.5;
+}
+.thumbs-slider-3 .carousel-indicators li.active {
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.thumbs-slider-3 .carousel-indicators li.active img {
+  opacity: 1;
+}

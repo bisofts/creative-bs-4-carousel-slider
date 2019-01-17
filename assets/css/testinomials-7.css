@@ -1,0 +1,103 @@
+.testinomials-7 {
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+.testinomials-7 .carousel {
+  margin: 0 auto;
+  cursor: move;
+}
+.testinomials-7 .carousel-inner .carousel-item {
+  padding-top: 60px;
+}
+.testinomials-7 h3 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 18px;
+}
+.testinomials-7 p {
+  margin-top: 30px;
+  color: #777777;
+  font-size: 14px;
+}
+.testinomials-7 a {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #ad9696;
+}
+.testinomials-7 .arrow {
+  color: #f8e6e6;
+  font-size: 60px;
+  opacity: 0.66;
+  position: absolute;
+  top: 40px;
+}
+.testinomials-7 .arrow.left-arrow {
+  left: 40px;
+}
+.testinomials-7 .arrow.right-arrow {
+  right: 40px;
+  left: auto;
+}
+.testinomials-7 .image-wrapper {
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 0px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #f2e8e8;
+  height: 60px;
+  background-color: #fff;
+}
+.testinomials-7 .item-hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  position: relative;
+}
+.testinomials-7 .item-hover:before {
+  content: "\f10d";
+  position: absolute;
+  font-family: fontawesome;
+  top: -19px;
+  left: 30px;
+  font-size: 26px;
+  color: #f0d8d8;
+}
+.testinomials-7 .author-content {
+  width: calc(100% - 80px);
+}
+.testinomials-7 .testimonial-column:nth-child(2) .item-hover {
+  background-color: #08c962;
+  border-color: #08c962;
+}
+.testinomials-7 .testimonial-column:nth-child(2) p, .testinomials-7 .testimonial-column:nth-child(2) h3, .testinomials-7 .testimonial-column:nth-child(2) a {
+  color: #ffffff;
+}
+.testinomials-7 .carousel-indicators {
+  bottom: 47px;
+  margin: 30px 0 0;
+  text-align: center;
+  position: static;
+}
+.testinomials-7 .carousel-indicators li {
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  border-radius: 50%;
+  border: 1px solid #b19b27;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+}
+.testinomials-7 .carousel-indicators li.active {
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  background-color: #b19b27;
+}
